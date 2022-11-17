@@ -59,7 +59,7 @@ public class MergeSort {
     }
 
     public MergeSort() {
-        int[] numbers = FileUtils.getInput(QuickSort.class);
+        int[] numbers = FileUtils.getInput(MergeSort.class);
         long start = System.currentTimeMillis();
         mergeSort(numbers, 0, numbers.length - 1);
         System.out.println("Took: " + (System.currentTimeMillis() - start) + "ms");
