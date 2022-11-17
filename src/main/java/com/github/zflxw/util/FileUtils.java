@@ -1,7 +1,5 @@
 package com.github.zflxw.util;
 
-import com.github.zflxw.QuickSort;
-
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.IOException;

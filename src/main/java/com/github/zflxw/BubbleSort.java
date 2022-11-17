@@ -3,17 +3,6 @@ package com.github.zflxw;
 import com.github.zflxw.util.FileUtils;
 
 public class BubbleSort {
-    public static void main(String[] args) {
-        new BubbleSort();
-    }
-
-    public BubbleSort() {
-        int[] numbers = FileUtils.getInput(BubbleSort.class);
-        long start = System.currentTimeMillis();
-        bubbleSort(numbers);
-        System.out.println("Took: " + (System.currentTimeMillis() - start) + "ms");
-    }
-
     public void bubbleSort(int[] array) {
         int temp;
         for (int i = 0; i < array.length; i++) {
@@ -25,5 +14,16 @@ public class BubbleSort {
                 }
             }
         }
+    }
+
+    public BubbleSort() {
+        int[] numbers = FileUtils.getInput(BubbleSort.class);
+        long start = System.currentTimeMillis();
+        bubbleSort(numbers);
+        System.out.println("Took: " + (System.currentTimeMillis() - start) + "ms");
+    }
+
+    public static void main(String[] args) {
+        new BubbleSort();
     }
 }
