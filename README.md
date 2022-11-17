@@ -4,14 +4,14 @@ A collection of sorting algorithms for educational purposes.
 
 ## 📚 Algorithms Overview
 
-| Name           | Type      | Short Description                                                                                                   | Time Complexity <br/> (B / AVG / W)    |  Implemented?  |
-|----------------|-----------|---------------------------------------------------------------------------------------------------------------------|----------------------------------------|:--------------:|
-| Insertion Sort | simple    | Inserts elements directly to their correct position.                                                                | `O(n) / O(n^2) / O(n^2)`               |       ✔        |
-| Selection Sort | simple    | Repeatedly searches for the min. element and places it in the right spot.                                           | `O(n^2) / O(n^2)  / O(n^2)`            |       ✔        |
-| Bubble Sort    | simple    | Swaps adjacent elements repeatedly until the whole array is sorted.                                                 | `O(n^2) / O(n^2) / O(n^2)`             |       ✔        |
-| Merge Sort     | efficient | Splits array in multiple partitions and merges them after sorting each partition individually.                      | `O(n log n) / O(n log n) / O(n log n)` |       ✔        |
-| Quick Sort     | efficient | Splits array in multiple partitions, selects a pivot element for each partition and sorts numbers around the pivot. | `O(n log n) / O(n log n) / O(n^2)`     |       ✔        |
-| Radix Sort     | efficient | Sorts numbers by the place of each digit.                                                                           | `O(n\*k) /O(n\*k) / O(n*k)`            |       ✘        |
+| Name           | Type      | Short Description                                                                                                   |   Time Complexity <br/> (B / AVG / W)    |  Implemented?  |
+|----------------|-----------|---------------------------------------------------------------------------------------------------------------------|:----------------------------------------:|:--------------:|
+| Insertion Sort | simple    | Inserts elements directly to their correct position.                                                                |         `O(n) / O(n^2) / O(n^2)`         |       ✔        |
+| Selection Sort | simple    | Repeatedly searches for the min. element and places it in the right spot.                                           |       `O(n^2) / O(n^2)  / O(n^2)`        |       ✔        |
+| Bubble Sort    | simple    | Swaps adjacent elements repeatedly until the whole array is sorted.                                                 |        `O(n^2) / O(n^2) / O(n^2)`        |       ✔        |
+| Merge Sort     | efficient | Splits array in multiple partitions and merges them after sorting each partition individually.                      |  `O(n log n) / O(n log n) / O(n log n)`  |       ✔        |
+| Quick Sort     | efficient | Splits array in multiple partitions, selects a pivot element for each partition and sorts numbers around the pivot. |    `O(n log n) / O(n log n) / O(n^2)`    |       ✔        |
+| Radix Sort     | efficient | Sorts numbers by the place of each digit.                                                                           |       `O(n\*k) /O(n\*k) / O(n*k)`        |       ✘        |
 
 ## 🕛 Time Overview
 
