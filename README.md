@@ -4,7 +4,7 @@ A collection of sorting algorithms for educational purposes.
 
 ## 📚 Algorithms Overview
 
-| Name           | Type      | Short Description                                                                                                   | Time Complexity     (B / AVG / W)      |  Implemented?  |
+| Name           | Type      | Short Description                                                                                                   | Time Complexity <br/> (B / AVG / W)    |  Implemented?  |
 |----------------|-----------|---------------------------------------------------------------------------------------------------------------------|----------------------------------------|:--------------:|
 | Insertion Sort | simple    | Inserts elements directly to their correct position.                                                                | `O(n) / O(n^2) / O(n^2)`               |       ✔        |
 | Selection Sort | simple    | Repeatedly searches for the min. element and places it in the right spot.                                           | `O(n^2) / O(n^2)  / O(n^2)`            |       ✔        |
