@@ -41,3 +41,6 @@ Benchmark Specs:
 
 If you want to contribute to this project (e.g. by implementing an algorithm or by adding missing documentation), go ahead and open a pull request. 
 I do not have certain contribution guidelines, but please try to match the general coding style of this repository.
+
+##  License
+Please checkout the LICENSE file.
