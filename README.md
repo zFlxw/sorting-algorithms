@@ -11,7 +11,7 @@ A collection of sorting algorithms for with benchmarks for educational purposes.
 | Bubble Sort    | simple    | Swaps adjacent elements repeatedly until the whole array is sorted.                                                  |        `O(n^2) / O(n^2) / O(n^2)`        |       ✔        |
 | Merge Sort     | efficient | Splits array in multiple partitions and merges them after sorting each partition individually.                       |  `O(n log n) / O(n log n) / O(n log n)`  |       ✔        |
 | Quick Sort     | efficient | Splits array in multiple partitions, selects a pivot element for each partition, and sorts numbers around the pivot. |    `O(n log n) / O(n log n) / O(n^2)`    |       ✔        |
-| Radix Sort     | efficient | Sorts numbers by the place of each digit.                                                                            |       `O(n\*k) /O(n\*k) / O(n*k)`        |       ✘        |
+| Radix Sort     | efficient | Sorts numbers by the place of each digit.                                                                            |       `O(n\*k) /O(n\*k) / O(n*k)`        |       ✔        |
 
 ## 🕛 Time Overview
 
@@ -33,7 +33,7 @@ Benchmark Specs:
 | Bubble Sort    |     14,002 ms |
 | Merge Sort     |         18 ms |
 | Quick Sort     |         14 ms |
-| Radix Sort     |         N. N. |
+| Radix Sort     |         17 ms |
 
 ¹ average time for sorting an array (same array for all algorithms) with 100,000 random, unsorted numbers (0 <= n <= 100,000).
 
